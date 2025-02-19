@@ -11,4 +11,9 @@ jobs:
 
     steps:
       - name: Hello World
-        run: echo 'Hello oWorld'
+        run: echo 'Hello World'
+      
+      - name: Hello and World
+        run: |
+          echo 'Hello'
+          echo 'World'
